@@ -3827,6 +3827,7 @@
 					iframe.setAttribute( 'allowfullscreen', '' );
 					iframe.setAttribute( 'mozallowfullscreen', '' );
 					iframe.setAttribute( 'webkitallowfullscreen', '' );
+					iframe.setAttribute( 'allow', 'autoplay' );
 
 					// Only load autoplaying content when the slide is shown to
 					// avoid having it play in the background
